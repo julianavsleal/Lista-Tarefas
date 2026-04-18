@@ -43,19 +43,27 @@ list-style-type: none;
 padding: 0;
 }
 
+
 li {
     background-color: blueviolet;
     margin: 10px auto;
     padding: 10px;
     border-radius: 5px;
-    color: white;
-    font-weight: bold;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
+    word-wrap: break-word;  /* Permite que palavras longas quebrem para a próxima linha */
+    overflow-wrap: break-word;  /* Compatibilidade adicional para quebra de palavras */
+    white-space: normal;  /* Permite que o texto quebre em múltiplas linhas */
+}
+
+.tarefa-texto {
+    color: white;
+    font-weight: bold;
+    flex: 1;
 }
 
 span {
     cursor: pointer;
+    margin-left: 10px;
 }
