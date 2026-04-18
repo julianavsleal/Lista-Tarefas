@@ -2,6 +2,9 @@
 
 Uma aplicação web simples para gerenciar uma lista de tarefas, desenvolvida com HTML, CSS e JavaScript puro.
 
+<img width="1913" height="843" alt="image" src="https://github.com/user-attachments/assets/ee44bdd9-ce44-49fe-8c51-79aec9581ff1" />
+
+
 ## ✨ Funcionalidades
 
 - **Adicionar Tarefa**: Digite uma tarefa no campo de entrada e clique em "Adicionar" para incluí-la na lista.
