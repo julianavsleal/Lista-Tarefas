@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+}
+
+input{
+    height: 40px;
+    border: 2px solid blueviolet;
+    background-color: #333;
+    color: white;
+    outline: none;
+    width: 74%;
+}
+
+button {
+    border: none;
+    height: 44px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 90px;
+}
+
+button:hover {
+    background-color: rgb(148, 89, 204);
+}
+
+button:active {
+    background-color: rgb(183, 156, 208);
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+li {
+    background-color: blueviolet;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    cursor: pointer;
+}
